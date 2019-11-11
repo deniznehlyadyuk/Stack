@@ -22,7 +22,6 @@
     <ClInclude Include="..\..\..\Code\inc\stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Code\stack.cpp" />
     <ClCompile Include="..\..\..\Test\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -82,7 +81,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>../../../Code/inc/;$(IncludePath)</IncludePath>
+    <IncludePath>../../../Code/inc/;$(IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
